@@ -1,0 +1,159 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background: #d68232;
+}
+
+body *
+{
+    box-sizing: border-box;
+}
+
+.products-holder {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.quantity {
+  font-size: 14px;
+  width: 50px;
+}
+
+.product {
+  max-width: 400px;
+  margin: 5px;
+  padding: 20px;
+  background: white;
+  display: inline-block;
+}
+
+.name{
+  margin: 0px;
+}
+
+.product img {
+  height: 160px;
+  width: 160px;
+  border: 2px solid #ddd;
+}
+
+.product img,
+.product-detail {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product-detail {
+    width: 50%;
+    padding: 0 20px;
+}
+
+select {
+  font-size: 24px;
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    background: #009fd4;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #0079a1;
+}
+
+button:active {
+    cursor: pointer;
+    background: #00b2ee;
+}
+
+.cart-holder {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 5px;
+  margin-right: 10px;
+}
+
+.cart-item {
+  width: 200px;
+  height: 150px;
+  background: white;
+  margin-bottom: 1px;
+}
+
+.cart-item p, .cart-item b, .cart-item table{
+  padding: 10px;
+  margin: 0px;
+}
+
+.cart-item__header {
+  padding-top: 10px;
+  padding-left: 12px;
+  margin: 0px;
+}
+
+.cart-item button {
+  background: #e50000;
+  margin: 10px;
+  padding: 5px 10px;
+  width: 90%;
+}
+
+.cart-item button:hover {
+    background: #b20000;
+}
+
+.cart-item button:active {
+    background: #ee5a5a;
+}
+
+table {
+  width: 100%;
+}
+
+table th{
+  background: #444;
+  color: white;
+  border: 1px solid #666;
+}
+
+table td{
+  text-align: center;
+}
+
+.cart-summary {
+  background: #444;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h4 {
+  margin: 5px;
+}
+
+.product table th {
+  border: none;
+  background: #009fd4;
+}
